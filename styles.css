@@ -89,20 +89,24 @@ nav ul li a:hover {
     background-color: #007d6f;
 }
 
-/* Expertise section */
-.expertise-section {
+/* Services section */
+.services-section {
     padding: 40px 20px;
     text-align: center;
     background-color: #ffffff;
 }
 
-.expertise-container {
+.section-banner h2 {
+    margin-bottom: 1.5rem;
+}
+
+.services-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.expertise-box {
+.service-box {
     flex: 1;
     min-width: 250px;
     margin: 1rem;
@@ -112,22 +116,54 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.expertise-box h3 {
+.service-box h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
-.expertise-box p {
+.service-box p {
     font-size: 1.1rem;
 }
 
-.services-section, .about-section, .contact-section {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: #ffffff;
+/* Contact form section */
+.contact-section form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
 
-.footer-content {
+form label {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.submit-button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    background-color: #009688;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-button:hover {
+    background-color: #007d6f;
+}
+
+/* Footer section */
+footer {
     background-color: #5a6e7f;
     color: white;
     text-align: center;
@@ -143,18 +179,4 @@ nav ul li a:hover {
 
 .footer-content a:hover {
     text-decoration: underline;
-}
-
-.submit-button {
-    padding: 0.8rem 1.5rem;
-    border: none;
-    background-color: #009688;
-    color: white;
-    font-size: 1.2rem;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.submit-button:hover {
-    background-color: #007d6f;
 }
