@@ -125,6 +125,38 @@ nav ul li a:hover {
     font-size: 1.1rem;
 }
 
+/* Expertise section */
+.expertise-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.expertise-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.expertise-box {
+    flex: 1;
+    min-width: 250px;
+    margin: 1rem;
+    background-color: #f4f4f4;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.expertise-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.expertise-box p {
+    font-size: 1.1rem;
+}
+
 /* Contact form section */
 .contact-section form {
     max-width: 500px;
