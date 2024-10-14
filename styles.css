@@ -157,6 +157,18 @@ nav ul li a:hover {
     font-size: 1.1rem;
 }
 
+/* About section */
+.about-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
 /* Contact form section */
 .contact-section form {
     max-width: 500px;
