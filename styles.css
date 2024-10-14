@@ -164,15 +164,26 @@ nav ul li a:hover {
     background-color: #ffffff;
 }
 
-.about-section p {
+.about-content {
+    margin-top: 1.5rem;
     font-size: 1.2rem;
     line-height: 1.6;
 }
 
 /* Contact form section */
-.contact-section form {
+.contact-section {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.contact-content {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+form {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 2rem auto;
     display: flex;
     flex-direction: column;
     text-align: left;
